@@ -187,3 +187,20 @@ body {
     background-color: #161615;
 
 }
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.footer::before,
+.footer::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #d1d1cb3f;
+}
